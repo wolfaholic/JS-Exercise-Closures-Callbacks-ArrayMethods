@@ -137,7 +137,7 @@ function processProduct(num1, num2, callback) {
  * should return "sad".
 */
 function processContains(item, list, callback) {
-  return callback(item);
+  return (callback(list.includes(item)));
 }
 
 /**
